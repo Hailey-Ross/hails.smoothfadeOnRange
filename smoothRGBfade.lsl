@@ -2,15 +2,18 @@
 // Site: https://u.hails.cc/Links
 // Github: https://github.com/Hailey-Ross/hails.smoothfadeOnRange
 // PLEASE LEAVE ALL CREDITS/COMMENTS INTACT
+// This script applys a fading out and fading in animation to an object while ALSO updating the RGB values of the object.
+// Very niche, but I thought I would provide it alongside the original script in this repository.
 
-integer RANGE = 10; // Detection range in meters
+integer RANGE = 10; // Detection range
 float FADE_STEP = 0.05; // Amount to change per step (lower = smoother)
 float TIMER_INTERVAL = 0.1; // How often the script updates (affects fade smoothness)
 float CHECK_INTERVAL = 2.0; // How often to check for avatars
-float current_alpha = 0.0; // Start fully invisible
-integer target_visibility = 0; // 1 = should be visible, 0 = should be invisible
-float last_check_time = 0.0;
+float current_alpha = 0.0; // 0.0 = Start fully invisible, 1.0 = Start fully visible
+integer target_visibility = 0; // 1 = object becomes visible, 0 = object becomes invisible
 
+//DO NOT TOUCH BELOW HERE
+float last_check_time = 0.0;
 float hailRed = 0;
 float hailGrn = 1;
 float hailBlu = 0;
