@@ -31,7 +31,7 @@ This **LSL script** smoothly fades a linked object **in and out** when an avatar
 ---
 
 ## 📜 Installation & Usage
-1. **Copy & paste** the `hails.smoothfadeOnRange` script into a prim in Second Life.  
+1. **Copy & paste** the contents of `script.lsl` into a prim in Second Life.  
 2. **Link multiple prims** if you want a multi-prim object to fade together.  
 3. Adjust the **configuration variables** to fit your needs.  
 
