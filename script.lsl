@@ -7,9 +7,11 @@ integer RANGE = 10; // Detection range in meters
 float FADE_STEP = 0.05; // Amount to change per step (lower = smoother)
 float TIMER_INTERVAL = 0.1; // How often the script updates (affects fade smoothness)
 float CHECK_INTERVAL = 2.0; // How often to check for avatars
-float current_alpha = 0.0; // Start fully invisible
-integer target_visibility = 0; // 1 = should be visible, 0 = should be invisible
+
+// **DO NOT TOUCH BELOW HERE - UNLESS YOU KNOW WHAT YOU ARE DOING**
 float last_check_time = 0.0;
+float current_alpha = 0.0; // 0.0 Start fully invisible, 1.0 Start fully visible
+integer target_visibility = 0; 
 
 default
 {
