@@ -16,7 +16,8 @@ This **LSL script** smoothly fades a linked object **in and out** when an avatar
 1. **Invisible by Default** – The object starts fully transparent.  
 2. **Avatar Detection** – The script checks for nearby avatars periodically.  
 3. **Smooth Transition** – When an avatar enters range, the object **gradually fades in**.  
-4. **Automatic Fade-Out** – If no avatars are detected, the object **fades out smoothly**.  
+4. **Automatic Fade-Out** – If no avatars are detected, the object **fades out smoothly**.
+5. **Inverse** – Use the inverse script to make it fade away as people approach.  
 
 ---
 
