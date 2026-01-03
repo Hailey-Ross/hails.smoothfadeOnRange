@@ -1,5 +1,5 @@
 // Script Created by Hailey Enfield
-// Site: https://u.hails.cc/Links
+// Site: https://links.hails.cc
 // Github: https://github.com/Hailey-Ross/hails.smoothfadeOnRange
 // PLEASE LEAVE ALL CREDITS/COMMENTS INTACT
 // This script applys a fading out and fading in animation to an object while ALSO updating the RGB values of the object.
